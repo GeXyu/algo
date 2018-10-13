@@ -132,6 +132,14 @@ public class SinglyLinkedList {
         System.out.println("");
     }
 
+    public Node getSentry() {
+        return sentry;
+    }
+
+    public void setHead(Node head) {
+        this.sentry.next = head;
+    }
+
     /**
      * 
      * @author XiuYu.Ge
@@ -162,6 +170,15 @@ public class SinglyLinkedList {
             this.next = next;
         }
 
+        /**
+         * @author XiuYu.Ge
+         * @created 2018年10月13日 上午9:19:38
+         * @return
+         */
+        @Override
+        public String toString() {
+            return String.valueOf(this.data);
+        }
     }
 
 }
