@@ -1,5 +1,18 @@
 package cn.zzcode.geek._09queue;
 
+/**
+ * <p>
+ * Title: LinkedQueue
+ * </p>
+ * <p>
+ * Description:基于链表
+ * </p>
+ * 
+ * @author XiuYu.Ge
+ * @created 2018年10月15日 下午9:23:29
+ * @modified [who date description]
+ * @check [who date description]
+ */
 public class LinkedQueue {
 
 	private Node sentry;

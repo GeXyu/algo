@@ -1,5 +1,18 @@
 package cn.zzcode.geek._09queue;
 
+/**
+ * <p>
+ * Title: CircularQueue
+ * </p>
+ * <p>
+ * Description:循环列表
+ * </p>
+ * 
+ * @author XiuYu.Ge
+ * @created 2018年10月15日 下午9:23:21
+ * @modified [who date description]
+ * @check [who date description]
+ */
 public class CircularQueue {
 
 	private String[] data;

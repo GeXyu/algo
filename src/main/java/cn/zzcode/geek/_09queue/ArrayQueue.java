@@ -1,5 +1,18 @@
 package cn.zzcode.geek._09queue;
 
+/**
+ * <p>
+ * Title: ArrayQueue
+ * </p>
+ * <p>
+ * Description:基于数组
+ * </p>
+ * 
+ * @author XiuYu.Ge
+ * @created 2018年10月15日 下午9:23:08
+ * @modified [who date description]
+ * @check [who date description]
+ */
 public class ArrayQueue {
 
 	private int head;
