@@ -72,7 +72,7 @@ public class Sorts {
         for (int i = 0; i < array.length; i++) {
             int minIndex = i;
             int minValue = array[i];
-            for (int j = 0; j < array.length; j++) {
+            for (int j = i + 1; j < array.length; j++) {
                 if (minValue < array[j]) {
                     minIndex = j;
                     minValue = array[j];
