@@ -29,12 +29,13 @@ public class QuickSort {
 
     // 快速排序递归函数，p,r为下标
     private static void quickSortInternally(int[] a, int p, int r) {
-        if (p >= r)
+        if (p >= r) {
             return;
+        }
 
-        int q = partition(a, p, r); // 获取分区点
-        quickSortInternally(a, p, q - 1);
-        quickSortInternally(a, q + 1, r);
+        int partition = partition(a, p, r);
+        quickSortInternally(a, p, partition - 1);
+        quickSortInternally(a, partition + 1, r);
     }
 
     private static int partition(int[] a, int p, int r) {
@@ -45,7 +46,6 @@ public class QuickSort {
                 int tmp = a[j];
                 a[j] = a[i];
                 a[i] = tmp;
-
                 i++;
             }
         }
@@ -54,6 +54,7 @@ public class QuickSort {
         a[i] = a[r];
         a[r] = tmp;
         return i;
+
     }
 
     public static void main(String[] args) {
