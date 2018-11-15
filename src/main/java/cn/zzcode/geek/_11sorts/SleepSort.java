@@ -41,10 +41,6 @@ public class SleepSort {
             this.time = time;
         }
 
-        /**
-         * @author XiuYu.Ge
-         * @created 2018年11月8日 上午9:27:03
-         */
         public void run() {
             try {
                 TimeUnit.SECONDS.sleep(time);
